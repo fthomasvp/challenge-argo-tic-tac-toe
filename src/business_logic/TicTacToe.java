@@ -32,6 +32,7 @@ public class TicTacToe {
     System.out.println();
 
     for (int i = 0; i < this.board.length; i++) {
+      System.out.print("\t\t");
       for (int j = 0; j < this.board[i].length; j++) {
         System.out.print(this.board[i][j]);
       }
