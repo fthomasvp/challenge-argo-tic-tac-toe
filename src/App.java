@@ -9,9 +9,11 @@ public class App {
   public static void main(String[] args) throws Exception {
     Scanner scanner = new Scanner(System.in);
 
-    System.out.println("=== Seja bem vindo ao Jogo da Velha ===\n");
+    System.out.println("=== Seja bem vindo ao Jogo da Velha ===");
 
     TicTacToe ticTacToe = new TicTacToe();
+
+    ticTacToe.displayBoard();
 
     int playerOneWinCount = 0;
     int playerTwoWinCount = 0;
